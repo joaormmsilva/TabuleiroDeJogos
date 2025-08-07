@@ -27,7 +27,7 @@ Essa coleção tem como objetivo treinar lógica de programação, estruturas b�
 ---
 
 ## 🚀 Como executar
-```bash
+
 1. Clone o repositório:
 
 git clone https://github.com/Joao-Renato-Silva/TabuleiroDeJogos.git
@@ -38,6 +38,26 @@ cd TabuleiroDeJogos
 
 3. Execute o jogo desejado com Python:
 
-python nome_do_jogo.py
+python nome_do_jogo.py<br><br><br>
 
 
+📚 Aprendizados com o projeto
+Construção de lógica de jogos
+
+Validação de entrada de usuário
+
+Organização de código por módulos
+
+Boas práticas e clareza no código
+
+Planejamento de funcionalidades novas<br><br>
+
+🙌 Contribuições
+Fique à vontade para sugerir melhorias, criar versões alternativas ou abrir pull requests!<br><br>
+
+👨‍💻 Autor
+Desenvolvido por João Renato
+📍 Desenvolvedor em formação com foco em Python, JavaScript e automações.<br><br>
+
+⭐ Quer me ajudar?
+Deixe uma ⭐ no repositório para apoiar meu trabalho e acompanhar a evolução dessa coleção!
