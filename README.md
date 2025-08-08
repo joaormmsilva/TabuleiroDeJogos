@@ -20,7 +20,7 @@ Essa coleção tem como objetivo treinar lógica de programação, estruturas b�
 - Trabalhar com:
   - Estruturas de controle (`if`, `elif`, `else`)
   - Loops (`while`, `for`)
-  - Módulos como `random` e `time`
+  - Módulos e Bliotecas 
   - Funções e organização de código
 - Evoluir os jogos com mais funcionalidades no futuro (como interfaces gráficas ou multiplayer)
 
