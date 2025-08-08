@@ -10,7 +10,7 @@ Essa coleção tem como objetivo treinar lógica de programação, estruturas b�
 | Jogo                       | Descrição |
 |---------------------------|-----------|
 | **Pedra, Papel e Tesoura** | O clássico jogo onde você desafia o computador. Usa lógica condicional, entrada de dados e aleatoriedade. |
-| **Jogo da forca**  | O clássico jogo de adivinhação de palavras.  Usa lógica condicional, entrada de dados e aleatoriedade. |
+| **Jogo da forca + txt Com palavras**  | O clássico jogo de adivinhação de palavras.  Usa lógica condicional, entrada de dados e aleatoriedade. |
 
 ---
 
