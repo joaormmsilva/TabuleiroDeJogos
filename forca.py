@@ -8,10 +8,16 @@ def desenhar_forca(erros):
     if erros == 1:
         print("     _____")
         print("    /     \\")
+        print("   |        |")
+        print("    \\     /")
+        print("     |||||")
+    if erros == 2:
+        print("     _____")
+        print("    /     \\")
         print("   | () () |")
         print("    \\  ^  /")
         print("     |||||")
-    elif erros == 2:
+    elif erros == 3:
         print("     _____")
         print("    /     \\")
         print("   | () () |")
@@ -20,7 +26,7 @@ def desenhar_forca(erros):
         print("   __|||||")
         print("  /  |||||")
         print(" |   |||||")
-    elif erros == 3:
+    elif erros == 4:
         print("     _____")
         print("    /     \\")
         print("   | () () |")
@@ -29,7 +35,19 @@ def desenhar_forca(erros):
         print("   __|||||__")
         print("  /  |||||  \\")
         print(" |   |||||   |")
-    elif erros == 4:
+    elif erros == 5:
+        print("     _____")
+        print("    /     \\")
+        print("   | () () |")
+        print("    \\  ^  /")
+        print("     |||||")
+        print("   __|||||__")
+        print("  /  |||||  \\")
+        print(" |   |||||   |")
+        print("     || ||")
+        print("     ||")
+        print("    [] ")
+    elif erros == 6:
         print("     _____")
         print("    /     \\")
         print("   | () () |")
@@ -94,20 +112,28 @@ while True:
     tamanhoPalavra = len(palavra_aleatoria)
     palavra = "_" * tamanhoPalavra
     erros = 0
+    letraErradas = []
 
     encontrada, categoria = palavra_esta_nas_listas(palavra_aleatoria, listas)
 
+    
+
     print("\nVamos começar nosso jogo de forca!!")
-    print(f"A palavra sorteada tem {tamanhoPalavra} letras")
 
     if encontrada:
         print(f"🔍 Dica: A palavra está na categoria: {categoria.replace('_', ' ')}")
+
+    print(f"A palavra sorteada tem {tamanhoPalavra} letras")
 
     print(palavra)
 
     
     while True:
         letra = input("\nEscolha uma letra: ").lower()
+        
+        if len(letra) != 1 or letra.isnumeric():
+            print('Quantia de letra ou dado invalido')
+            continue
 
         if letra in palavra_aleatoria:
             quantia = palavra_aleatoria.count(letra)
@@ -125,11 +151,13 @@ while True:
                 print("🎉 Parabéns! Você acertou a palavra!")
                 break
         else:
+            letraErradas.append(letra)
             erros += 1
             print(f"A letra '{letra}' não está na palavra.")
+            print(f"Letras erradas: {', '.join(letraErradas)}")
             desenhar_forca(erros)
 
-            if erros == 4:
+            if erros == 6:
                 print(f"💀 Você perdeu! A palavra era: {palavra_aleatoria}")
                 break
 
