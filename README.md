@@ -28,17 +28,17 @@ Essa coleção tem como objetivo treinar lógica de programação, estruturas b�
 
 ## 🚀 Como executar
 
-1. Clone o repositório:
+  1. Clone o repositório:
 
-git clone https://github.com/Joao-Renato-Silva/TabuleiroDeJogos.git
+    git clone https://github.com/Joao-Renato-Silva/TabuleiroDeJogos.git
 
-2. Navegue até a pasta:
+  2. Navegue até a pasta:
 
-cd TabuleiroDeJogos
+    cd TabuleiroDeJogos
 
-3. Execute o jogo desejado com Python:
+  3. Execute o jogo desejado com Python:
 
-python nome_do_jogo.py<br><br><br>
+    python nome_do_jogo.py<br><br><br>
 
 
 📚 Aprendizados com o projeto
